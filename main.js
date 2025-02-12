@@ -392,7 +392,7 @@ const LibraryCreator = {
       skeleton: 'basic', // 블럭 형식(basic은 일반 블럭)
       color: { // 색깔
         default: '#6dabe3', //RGB 색깔
-        darken: '#750028' //RGB 색깔
+        darken: '#6dabe3' //RGB 색깔
       },
       params: [ // %n 정의
         { // %1 정의
