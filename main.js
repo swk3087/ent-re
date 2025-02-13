@@ -364,7 +364,7 @@ const LibraryCreator = {
 
 //////////////////////////////////////
     {
-      name: 'firsttext', // 이름 지정
+      name: '1text', // 이름 지정
       template: '%1', // 표시할 내용
       skeleton: 'basic_text', // 형식(기본 텍스트)
       color: { // 색깔
@@ -410,7 +410,7 @@ const LibraryCreator = {
 
 //////////////////////////////////////
     {
-      name: 'firsttext', // 이름 지정
+      name: '2text', // 이름 지정
       template: '%1', // 표시할 내용
       skeleton: 'basic_text', // 형식(기본 텍스트)
       color: { // 색깔
@@ -433,7 +433,7 @@ const LibraryCreator = {
 
 //////////////////////////////////////
     {
-      name: 'firsttext', // 이름 지정
+      name: '3text', // 이름 지정
       template: '%1', // 표시할 내용
       skeleton: 'basic_text', // 형식(기본 텍스트)
       color: { // 색깔
