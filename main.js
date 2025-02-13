@@ -391,8 +391,8 @@ const LibraryCreator = {
       template: '사용자 엔트리 로그인', // 표시할 내용
       skeleton: 'basic', // 블럭 형식(basic은 일반 블럭)
       color: { // 색깔
-        default: '#990033', //RGB 색깔
-        darken: '#750028' //RGB 색깔
+        default: '#23526a', //RGB 색깔
+        darken: '#23526a' //RGB 색깔
       },
       params: [ // %n 정의
         { // %1 정의
