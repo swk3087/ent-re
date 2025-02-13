@@ -492,7 +492,7 @@ const LibraryCreator = {
         params: [ // %n의 형식 지정
             { // %1의 형식 정의
                 type: 'Text', // 텍스트 형식
-                text: 'Made by swk, beta 0.1', // 표시 내용
+                text: `Made by swk, beta 0.1<a herf="https://swk3087.github.io/ent-re/">사용법</a>`,
                 color: EntryStatic.colorSet.common.TEXT, // 검은색
                 class: 'bold',
                 align: 'center'
