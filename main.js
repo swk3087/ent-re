@@ -427,7 +427,7 @@ const LibraryCreator = {
       func: async (sprite, script) => { // 실행할 JS 코드
         // script.getValue('위에 map에서 설정한 변수 이름', script) 이 코드로 입력값 로드 가능
         alert('사용자 클라이언트가 모바일인가?');
-        if (Entry.isMobile(); == true){
+        if (Entry.isMobile(); == true) {
             return true;
         }
       }
