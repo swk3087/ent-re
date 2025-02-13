@@ -482,7 +482,7 @@ const LibraryCreator = {
 
 //////////////////////////////////////
     {
-        name: 'textonetext', // 이름 지정
+        name: 'b1text', // 이름 지정
         template: '%1', // 표시할 내용
         skeleton: 'basic_text', // 형식(기본 텍스트)
         color: { // 색깔
@@ -492,7 +492,31 @@ const LibraryCreator = {
         params: [ // %n의 형식 지정
             { // %1의 형식 정의
                 type: 'Text', // 텍스트 형식
-                text: `Made by swk, beta 0.1<a herf="https://swk3087.github.io/ent-re/">사용법</a>`,
+                text: 'Made by swk, beta 0.2',
+                color: EntryStatic.colorSet.common.TEXT, // 검은색
+                class: 'bold',
+                align: 'center'
+            }
+        ],
+        def: [],
+        map: {},
+        class: 'text'
+    }
+//////////////////////////////////////
+
+//////////////////////////////////////
+    {
+        name: 'b2text', // 이름 지정
+        template: '%1', // 표시할 내용
+        skeleton: 'basic_text', // 형식(기본 텍스트)
+        color: { // 색깔
+        default: EntryStatic.colorSet.common.TRANSPARENT, // 투명
+        darken: EntryStatic.colorSet.common.TRANSPARENT // 투명
+        },
+        params: [ // %n의 형식 지정
+            { // %1의 형식 정의
+                type: 'Text', // 텍스트 형식
+                text: 'github : swk3087/ent-re',
                 color: EntryStatic.colorSet.common.TEXT, // 검은색
                 class: 'bold',
                 align: 'center'
