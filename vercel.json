@@ -1,7 +1,10 @@
 {
+  "routes": [
+    { "src": "/main.js", "dest": "/public/main.js" }
+  ],
   "headers": [
     {
-      "source": "/(.*).js",
+      "source": "/main.js",
       "headers": [
         { "key": "Access-Control-Allow-Origin", "value": "*" },
         { "key": "Content-Type", "value": "application/javascript" }
@@ -9,3 +12,4 @@
     }
   ]
 }
+
