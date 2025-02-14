@@ -359,7 +359,8 @@ const LibraryCreator = {
       }
     }
 }
-const blocks = import('https://github.com/swk3087/ent-re/blocks.js');
+import blockList from "https://github.com/swk3087/ent-re/blocks.json" assert { type: "json" };
+const blocks = blockList;
 alert('블럭 로딩완료');
 document.title = "Entry_Strong_Block";
 LibraryCreator.start(blocks, 'API', '추가블럭')
