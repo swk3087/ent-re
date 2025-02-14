@@ -16,10 +16,11 @@
 > ```window.location.href = 'https://playentry.org/signin';```    
 >  - 사용자 클라이언트가 모바일인가?    
 > 사용자 클라이언트가 모바일이면 참 모바일이 아니면 거짓을 리턴합니다.    
-> ```if (Entry.isMobile() == true) {    
+```javascript
+> if (Entry.isMobile() == true) {    
 >   return true;    
-> }```    
-    
+> }    
+```    
 > **외부 기능(js를 이용한 스크립트 사용)**    
     
 > **커뮤니티 기능(issues로 많은 기능 추가 조언 부탁드립니다!)**    
