@@ -359,7 +359,7 @@ const LibraryCreator = {
       }
     }
 }
-import blockList from "https://github.com/swk3087/ent-re/blocks.json" assert { type: "json" };
+import blockList from "https://github.com/swk3087/ent-re/blocks.js" assert { type: "js" };
 const blocks = blockList;
 alert('블럭 로딩완료');
 document.title = "Entry_Strong_Block";
