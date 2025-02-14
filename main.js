@@ -345,7 +345,7 @@ const LibraryCreator = {
       for (let i in blocksJSON) {
         let block = blocksJSON[i]
         blockArray.push(block.name)
-        addBlock(block.name, block.template, { color: block.color.default, outerLine: block.color.darken }, { params: block.params, define: block.def, map: block.map }, block.class, block.func, block.skeleton)
+        addBlock(block.name, block.template, { color: EntryStatic.colorSet.block.default, outerLine: EntryStatic.colorSet.block.darken }, { params: block.params, define: block.def, map: block.map }, block.class, block.func, block.skeleton)
       }
       // 블록 반영
       Entry.staticBlocks.push({ category: category, blocks: blockArray })
