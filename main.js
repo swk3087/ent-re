@@ -359,8 +359,7 @@ const LibraryCreator = {
       }
     }
 }
-import blockList from "https://github.com/swk3087/ent-re/blocks.js";
-const blocks = blockList;
+const blocks = $.get('https://github.com/swk3087/ent-re/blocks.js');
 document.title = "Entry_Strong_Block";
 LibraryCreator.start(blocks, 'API', '추가블럭')
 alert('블럭 로딩완료');
