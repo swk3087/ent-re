@@ -361,6 +361,7 @@ const LibraryCreator = {
 }
 import blockList from "https://github.com/swk3087/ent-re/blocks.js";
 const blocks = blockList;
-alert('블럭 로딩완료');
 document.title = "Entry_Strong_Block";
 LibraryCreator.start(blocks, 'API', '추가블럭')
+alert('블럭 로딩완료');
+console.log('loaded!');
