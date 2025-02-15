@@ -387,16 +387,17 @@ const blocks = [
 //////////////////////////////////////
 {
     name: 'EntryLogiN', // 블럭 이름 지정
-    template: '사용자 엔트리 로그인', // 표시할 내용
+    template: '사용자 엔트리 로그인 %1', // 표시할 내용
     skeleton: 'basic', // 블럭 형식(basic은 일반 블럭)
     color: { // 색깔
         default: '#23526a', //RGB 색깔
         darken: '#23526a' //RGB 색깔
     },
     params: [ // %n 정의
-        { // %1 정의
-            type: 'Block', // 형식 지정(입력값)
-            accept: 'string'
+        {
+            type: "Indicator",  
+            img: "https://swk3087.github.io/ent-re/img/icon.svg",
+            size: 12
         }
     ],
     func: async(sprite, script) => { // 실행할 JS 코드
@@ -506,16 +507,17 @@ const blocks = [
 //////////////////////////////////////
 {
     name: 'PlusBlockGithuB', // 블럭 이름 지정
-    template: '추가블럭 깃허브로 이동', // 표시할 내용
+    template: '추가블럭 깃허브로 이동 %1', // 표시할 내용
     skeleton: 'basic', // 블럭 형식(basic은 일반 블럭)
     color: { // 색깔
         default: '#23526a', //RGB 색깔
         darken: '#23526a' //RGB 색깔
     },
     params: [ // %n 정의
-        { // %1 정의
-            type: 'Block', // 형식 지정(입력값)
-            accept: 'string'
+        {
+            type: "Indicator",  
+            img: "https://swk3087.github.io/ent-re/img/icon.svg",
+            size: 12
         }
     ],
     func: async(sprite, script) => { // 실행할 JS 코드
@@ -527,7 +529,7 @@ const blocks = [
 }
 //////////////////////////////////////
 ]
-document.title = "Entry_Strong_Block";
+document.title = "ENT:RE";
 LibraryCreator.start(blocks, 'API', '추가블럭')
 alert('블럭 로딩완료');
 console.log(`
