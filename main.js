@@ -396,7 +396,7 @@ const blocks = [
     params: [ // %n 정의
         {
             type: "Indicator",  
-            img: "https://swk3087.github.io/ent-re/img/icon.png",
+            img: "https://swk3087.github.io/ent-re/img/icon.svg",
             size: 12
         }
     ],
@@ -516,7 +516,7 @@ const blocks = [
     params: [ // %n 정의
         {
             type: "Indicator",  
-            img: "https://swk3087.github.io/ent-re/img/icon.png",
+            img: "https://swk3087.github.io/ent-re/img/icon.svg",
             size: 12
         }
     ],
