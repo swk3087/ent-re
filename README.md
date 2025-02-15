@@ -14,9 +14,9 @@
     
 # 블럭 설명    
 
-<img src="/img/block-img_EntryLogiN.png" />
+> <img src="/img/block-img_EntryLogiN.png" />
 > 사용자를 엔트리 로그인 창으로 이동시킵니다. 로그인 후 그전 페이지로 돌아옴.
---------
-<img src="/img/block-img_IsMobilE.png" />
+***
+> <img src="/img/block-img_IsMobilE.png" />
 > 사용자 클라이언트가 모바일이면 참 모바일이 아니면 거짓을 리턴합니다.
---------
+***
