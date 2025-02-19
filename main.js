@@ -102,14 +102,14 @@ const blocks = [
     params: [ // %n 정의
         {
             type: "Indicator",  
-            img: "https://swk3087.github.io/ent-re/img/icon.svg",
+            img: "//swk3087.github.io/ent-re/img/icon.svg",
             size: 12
         }
     ],
     func: async(sprite, script) => { // 실행할 JS 코드
         // script.getValue('위에 map에서 설정한 변수 이름', script) 이 코드로 입력값 로드 가능
         alert('사용자 엔트리 로그인');
-        window.location.href = 'https://playentry.org/signin';
+        window.location.href = '//playentry.org/signin';
         return script.callReturn() // 일반 블럭 코드 뒤에는 반드시 붙여주세요
     }
 },
@@ -190,7 +190,7 @@ const blocks = [
     ],
     func: async(sprite, script) => { 
         alert('추가블럭 깃허브로 이동');
-        window.location.href = 'https://github.com/swk3087/ent-re';
+        window.location.href = '//github.com/swk3087/ent-re';
         return script.callReturn() 
     }
 }
